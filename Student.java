@@ -6,6 +6,7 @@ public class Student{
     private int numberOfSubjects;
     private int[] subjectMarks;
 
+    
     public Student(String name, String fName, int age, int numberOfSubjects)
     {
         this.name=name;
@@ -58,12 +59,4 @@ public class Student{
         System.out.println("Highest Marks: "+highestMarks);
         System.out.println("Lowest Marks: "+lowestMarks);
     }
-
-    public static void main(String[] args)
-    {
-        Student ali = new Student("Ali","Ahmad",12,3);
-        ali.inputSubjectsMarks();
-        ali.display();
-    }
 }
-
